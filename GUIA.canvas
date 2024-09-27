@@ -1,0 +1,31 @@
+{
+	"nodes":[
+		{"id":"f12f64cd2a1e98f8","type":"file","file":"Azure_CI-CD/PREREQUISTITOS/SETUP-Otros.md","x":-1820,"y":320,"width":400,"height":400},
+		{"id":"4aaa4df563a07696","type":"file","file":"Azure_CI-CD/PREREQUISTITOS/SETUP-Salesforce.md","x":-1220,"y":320,"width":400,"height":400},
+		{"id":"f1757349ff8e7465","type":"link","url":"https://www.youtube.com/watch?v=LA8m-t7CjHA&ab_channel=NicolasVuillamy","x":-1940,"y":-240,"width":640,"height":360},
+		{"id":"42d8d0836c323a93","type":"text","text":"# INTRO","x":-2320,"y":488,"width":240,"height":65,"color":"3"},
+		{"id":"7c5746d51dd42c9a","type":"text","text":"# PRIMEROS PASOS","x":-515,"y":475,"width":310,"height":89},
+		{"id":"71a69ccb5edac571","type":"file","file":"Azure_CI-CD/fotos/Pasted image 20240925162145.png","x":-850,"y":880,"width":980,"height":538},
+		{"id":"56c2d2f4baad1fbd","type":"text","text":"# FLUJO DE TRABAJO, VER VIDEO","x":80,"y":481,"width":483,"height":83},
+		{"id":"4c7f94a6fb1e0e69","type":"text","text":"TRABAJO COMO DEVELOPER","x":1800,"y":498,"width":280,"height":62,"color":"3"},
+		{"id":"c30ee542806a5d60","type":"file","file":"Azure_CI-CD/RELEASE MANAGER/Pipelines.md","x":2280,"y":880,"width":800,"height":440},
+		{"id":"4b927d0b4f700cc1","type":"file","file":"Azure_CI-CD/CONTRIBUTOR/Developers.md","x":2280,"y":303,"width":800,"height":440},
+		{"id":"2fdffd2df9e413be","type":"link","url":"https://www.youtube.com/watch?v=WOqssZwjPhw&ab_channel=NicolasVuillamy","x":2190,"y":-320,"width":640,"height":360},
+		{"id":"e9bf3329a346d680","type":"link","url":"https://www.youtube.com/watch?v=qP6MaZUGzik","x":880,"y":343,"width":640,"height":360},
+		{"id":"8a732cfea51304cc","type":"text","text":"TRABAJO COMO RELEASE MANAGER","x":1755,"y":710,"width":370,"height":67,"color":"3"}
+	],
+	"edges":[
+		{"id":"3733018565de1523","fromNode":"f12f64cd2a1e98f8","fromSide":"right","toNode":"4aaa4df563a07696","toSide":"left"},
+		{"id":"67ce32532a6f6ad6","fromNode":"42d8d0836c323a93","fromSide":"right","toNode":"f12f64cd2a1e98f8","toSide":"left"},
+		{"id":"cdaa3b3498528dac","fromNode":"f12f64cd2a1e98f8","fromSide":"top","toNode":"f1757349ff8e7465","toSide":"bottom"},
+		{"id":"b835148ec21f1545","fromNode":"4aaa4df563a07696","fromSide":"right","toNode":"7c5746d51dd42c9a","toSide":"left"},
+		{"id":"a5ce44eb299c313f","fromNode":"7c5746d51dd42c9a","fromSide":"bottom","toNode":"71a69ccb5edac571","toSide":"top"},
+		{"id":"aab7755e82b4f775","fromNode":"4b927d0b4f700cc1","fromSide":"top","toNode":"2fdffd2df9e413be","toSide":"bottom"},
+		{"id":"87e2c68ec21e2ab0","fromNode":"7c5746d51dd42c9a","fromSide":"right","toNode":"56c2d2f4baad1fbd","toSide":"left"},
+		{"id":"d6aa1115c32ef4cc","fromNode":"56c2d2f4baad1fbd","fromSide":"right","toNode":"e9bf3329a346d680","toSide":"left"},
+		{"id":"aeadc7fec982b5ba","fromNode":"e9bf3329a346d680","fromSide":"right","toNode":"4c7f94a6fb1e0e69","toSide":"left"},
+		{"id":"4cf38ebed44f718b","fromNode":"4c7f94a6fb1e0e69","fromSide":"right","toNode":"4b927d0b4f700cc1","toSide":"left"},
+		{"id":"961e3759b753f84f","fromNode":"8a732cfea51304cc","fromSide":"right","toNode":"c30ee542806a5d60","toSide":"left"},
+		{"id":"0a016e2f54d3a403","fromNode":"e9bf3329a346d680","fromSide":"right","toNode":"8a732cfea51304cc","toSide":"left"}
+	]
+}
